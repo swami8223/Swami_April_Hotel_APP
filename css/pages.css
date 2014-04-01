@@ -1,0 +1,132 @@
+/*
+Responsive Template Name: RS-1200 Prototype 46
+File: Pages CSS
+Author: OS Templates
+Author URI: http://www.os-templates.com/
+Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
+*/
+
+/*----------------------------------------------Site Wide Shared Classes-------------------------------------*/
+
+.post-image{margin-bottom:40px;}
+
+.blog-post-title a{color:#979797; background-color:#FFFFFF;}
+.blog-post-title a:hover{color:#FF9900; background-color:#FFFFFF;}
+.read-more{text-align:right;}
+
+.blog-post-meta{font-size:.8em;}
+.blog-post-meta ul{margin:0; padding:0; list-style:none;}
+.blog-post-meta ul li{display:inline; margin-left:5px; padding-left:5px; border-left:1px solid #D6D6D6;}
+.blog-post-meta ul li:first-child{margin-left:0; padding:0; border:none;}
+
+/*----------------------------------------------Homepage-------------------------------------*/
+
+#homepage{margin:0; padding:0; overflow:hidden;}/*Overflow Hidden - Due to collapsing margin bug*/
+#intro{padding:30px 0;}
+#intro .boxholder{padding:15px; border-color:#333333;}
+
+/*----------------------------------------------Blog Overview-------------------------------------*/
+
+#blog-posts #blog-overview{display:block; width:100%;}
+#blog-posts #blog-overview .blog-post-excerpt{margin-bottom:50px;}
+#blog-posts #blog-overview .blog-post-excerpt .blog-post-meta ul{padding:15px 0; border:solid #D6D6D6; border-width:1px 0;}
+
+/*----------------------------------------------Portfolio Overview-------------------------------------*/
+
+#portfolio ul{margin:0; padding:0; list-style:none;}
+#portfolio ul li{margin-bottom:30px;}
+
+
+/*----------------------------------------------Delivery-------------------------------------*/
+.delivery-product-dispaly{
+	overflow: hidden;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+padding:5px 0px 5px 5px;
+position: relative;
+margin-top: 10px;
+
+}
+.delivery-product-dispaly div{margin-top: 8px;float: left;list-style: none;margin-top: 8px;
+width: 32%;}
+.delivery-product-dispaly  div img{
+width: 62px;
+height: 50px;
+
+
+}
+
+/*----------------------------------------------Delivery-------------------------------------*/
+
+
+/*----------------------------------------------Gallery-------------------------------------*/
+#gallery h4{border: 1px solid;padding: 10px}
+#gallery section figure ul{margin:0; padding:0; list-style:none;}
+#gallery section figure ul li{padding:5px;position: relative;border: 1px solid;margin:10px;overflow: hidden;}
+#gallery section figure ul li .item-img{margin: 0px auto;width: 100%;height: 120px;padding-bottom: 10px}
+#gallery section figure ul li .item-name{font-weight: bold;text-transform: uppercase;font-size: 18px;color: #FF9900; width: 98%;}
+#gallery section figure ul li .item-details{font-size: 12px;color: #666; width: 100%;height: 20px;margin-bottom: 1px}
+#gallery section figure ul li .item-price{font-size: 12px;color: #666; width: 100%;height: 20px;margin-bottom: 1px;}
+#gallery section figure ul li .item-price a ,#gallery section figure ul li .item-details a {color: #333;font-size: 14px;}
+#gallery section figure ul li .add-to-cart{position:absolute;right: 5px;background: url("images/icons/gemicon/add-to-cart.png") #333;background-size: 40px;width: 40px ; height: 40px}
+.main-menu-container{width:15%}
+.main-menu{
+	margin-right: 10px;
+}
+.main-menu li{
+	padding: 10px 0px 10px 10px;
+background: #ffa84c; /* Old browsers */
+background: -moz-linear-gradient(top, #ffa84c 0%, #ff7b0d 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffa84c), color-stop(100%,#ff7b0d)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #ffa84c 0%,#ff7b0d 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #ffa84c 0%,#ff7b0d 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #ffa84c 0%,#ff7b0d 100%); /* IE10+ */
+background: linear-gradient(to bottom, #ffa84c 0%,#ff7b0d 100%); /* W3C */
+list-style: none;
+border-bottom: 1px solid #ffb76b;
+
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa84c', endColorstr='#ff7b0d',GradientType=0 ); /* IE6-9 */
+
+
+}
+
+.main-menu li a{color: #fff;}
+.menu-gallery{width:70%;}
+.cart-wheel{width:14%;position: fixed;right: 10px;border: 1px solid #333;margin-right: 5px;border-radius:1em; }
+.cart-wheel h5{margin-top: 10px;border-bottom: 1px solid #FF9900}
+.cart-list{margin-top:10px;height: 180px;overflow: scroll;}
+.cart-wheel ul li {border-bottom:1px solid #333; overflow: hidden; list-style: none;margin-top: 10px; }
+.qty-box{width: 40px;height: 25px; font-size: 18px;padding: 1px; text-align: center;}
+.cart-wheel .total-block .inner-total-block{margin-left: 20px;font-size: 20px;}
+.cart-wheel .cart-wheel-header{border-bottom: 1px solid #333;overflow: hidden;}
+
+/*----------------------------------------------404-------------------------------------*/
+
+#fof{display:block; margin:0; padding:100px 0 20px 0; text-align:center;}
+#fof h1, #fof h2{margin:0; padding:0;}
+#fof h1{margin-top:-70px; font-size:15em; text-shadow:6px 6px 0 rgba(229, 228, 227, 1);}
+#fof h2{margin-top:-30px; font-size:3.5em;}
+#fof p{margin:0; padding:0;}
+#fof p.notice{display:block; width:100%; margin-bottom:50px; clear:both; font-weight:bold; text-transform:uppercase;}
+#fof p.clear{padding:10px; border:1px solid #E5E4E3; font-size:16px;}
+
+/*----------------------------------------------About Us-------------------------------------*/
+
+figure.team-member figcaption p{margin:15px 0 0 0; padding:0;}
+figure.team-member figcaption .team-name{font-weight:bold;}
+figure.team-member figcaption .team-title{margin:0 0 15px 0; font-size:11px; line-height:normal;}
+figure.team-member figcaption .team-description{margin:0; padding-top:15px; border-top:1px solid #E5E4E3;}
+
+/*----------------------------------------------Testimonials-------------------------------------*/
+
+.testimonial{margin-top:20px;}
+.testimonial:first-child{margin-top:0;}
+.testimonial div blockquote{position:relative; width:auto; margin:0; padding:0 0 0 60px; border:none;}
+.testimonial div blockquote .marks{position:absolute; top:0; left:0; font-size:120px; line-height:.8em;}
+.testimonial div blockquote p{margin:0 0 15px 0; padding:0;}
+.testimonial .testimonial-author{padding:0 0 0 60px;}
+
+
+
+
